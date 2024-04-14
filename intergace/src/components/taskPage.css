@@ -1,0 +1,72 @@
+
+body{
+    background-color: #262626;
+    color: white;
+}
+.container{
+    padding: rem;
+    margin: 5rem;
+}
+.container .first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .first-row .prioritydiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .first-row .prioritydiv :nth-child(2) {
+    margin-right: 2rem;
+}
+.container .last-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    margin-top: 3rem;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input,
+textarea{
+    border: none;
+    background-color: #262626;
+    color: white;
+}
+input:focus,
+textarea:focus{
+    outline: none;
+}
+
+.task-name{
+    font-size: 3.5em;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+}
+
+.task-description{
+    font-size: 1em;
+    padding: 20px;
+    width: 100%;
+    height: 15rem;
+}
+.task-duedate{
+    font-size: 1em;
+    height:auto;
+    border: none;
+    color: white;
+}
+
+
